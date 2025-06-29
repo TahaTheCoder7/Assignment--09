@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Assignment-09</title>
+  <link rel="shortcut icon" href="favicon.png.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      width: 800px;
+      background: white;
+    }
+
+    .left, .right {
+      width: 50%;
+      padding: 40px;
+    }
+
+    .left {
+      background: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-right: 1px solid #eee;
+    }
+
+    .right {
+      background: #fafbff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      margin: 0 0 20px;
+    }
+
+    p {
+      color: #888;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .social-icons {
+      margin: 15px 0;
+    }
+
+    .social-icons i {
+      margin: 0 10px;
+      color: #555;
+      font-size: 20px;
+    }
+
+    input {
+      width: 80%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 30px;
+      background: linear-gradient(135deg, #4a90e2, #007bff);
+      border: none;
+      color: white;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+
+    button:hover {
+      height: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h2>Welcome Back !</h2>
+      <p>To keep connected with us please login with your personal info</p>
+      <button>SIGN IN</button>
+    </div>
+    <div class="right">
+      <h2>Create Account</h2>
+      <div class="social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+      <p>or use email for registration</p>
+      <form>
+        <input type="text" placeholder="Name" /><br>
+        <input type="email" placeholder="Email" /><br>
+        <input type="password" placeholder="Password" /><br>
+        <button type="submit">SIGN UP</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
